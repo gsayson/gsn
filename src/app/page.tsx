@@ -18,7 +18,7 @@ export default function Home() {
             <ParticlesBackground></ParticlesBackground>
             <div>
                 <div className="center" style={{
-                    marginTop: "150px"
+                    marginTop: "25px"
                 }}>
                     <Image
                         src="/avatar.jpg"
@@ -46,6 +46,11 @@ export default function Home() {
                     }}>hololive</span>, play <span style={{
                         color: "rgb(45,255,196)"
                     }}>Team Fortress 2</span> or do absolutely nothing.</p>
+                    <br/>
+                    <p>By the way, I&apos;m not taken. You most likely don&apos;t want to know this <span style={{
+                        color: "gray"
+                    }}>(you probably don&apos;t even care about it)</span>, but I&apos;ll leave it here; this is my
+                    personal website after all.</p>
                     <br/><br/>
                     <div className="center" style={{
                         flexDirection: "row",
