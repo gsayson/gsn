@@ -4,10 +4,16 @@ import "./globals.css"
 import Image from "next/image";
 import ParticlesBackground from "@/components/particles";
 import { IoLogoGithub, IoLogoDiscord } from "react-icons/io5"
+import Navbar from "@/components/navbar";
 
 export default function Home() {
     return (
         <div>
+            <br/>
+            <div className="center">
+                <Navbar/>
+            </div>
+            <br/>
             <ParticlesBackground></ParticlesBackground>
             <div>
                 <div className="center" style={{
@@ -27,7 +33,7 @@ export default function Home() {
                         color: "rgb(45,255,196)"
                     }}>Gerard Sayson</span>, a computer scientist and aspiring mathematician based in <span style={{
                         color: "rgb(45,255,196)"
-                    }}>Singapore</span>. People call me by a lot of names online, namely <span style={{
+                    }}>Singapore</span>. I&apos;m known online by plenty of names, namely <span style={{
                             color: "rgb(45,255,196)"
                         }}>Big Rat</span> and <span style={{
                             color: "rgb(45,255,196)"
@@ -41,10 +47,15 @@ export default function Home() {
                     }}>
                         <button onClick={
                             () => {
+                                //https://discordapp.com/users/865552521631105034
                                 window.location.assign("https://github.com/gsayson")
                             }
                         }><IoLogoGithub/>&nbsp;My GitHub</button>
-                        <button><IoLogoDiscord/>&nbsp;My Discord</button>
+                        <button onClick={
+                            () => {
+                                window.location.assign("https://discordapp.com/users/865552521631105034")
+                            }
+                        }><IoLogoDiscord/>&nbsp;My Discord</button>
                     </div>
                     <br/>
                 </div>
