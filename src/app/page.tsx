@@ -3,8 +3,9 @@
 import "./globals.css"
 import Image from "next/image";
 import ParticlesBackground from "@/components/particles";
-import { IoLogoGithub, IoLogoDiscord } from "react-icons/io5"
+import { IoLogoGithub } from "react-icons/io5"
 import Navbar from "@/components/navbar";
+import { FaDiscord } from "react-icons/fa";
 
 export default function Home() {
     return (
@@ -25,6 +26,7 @@ export default function Home() {
                         width="250"
                         height="250"
                         className="avatar"
+                        priority={true}
                     ></Image>
                 </div>
                 <div className="container">
@@ -37,9 +39,13 @@ export default function Home() {
                             color: "rgb(45,255,196)"
                         }}>Big Rat</span> and <span style={{
                             color: "rgb(45,255,196)"
-                        }}>Rin</span>.</p>
+                        }}>Rin</span> (Please don&apos;t ask me why).</p>
                     <br/>
-                    <p>Currently, I&apos;m <em>very</em> interested in compiler design.</p>
+                    <p>In my free time, I watch <span style={{
+                        color: "rgb(45,255,196)"
+                    }}>hololive</span>, play <span style={{
+                        color: "rgb(45,255,196)"
+                    }}>Team Fortress 2</span> or do absolutely nothing.</p>
                     <br/><br/>
                     <div className="center" style={{
                         flexDirection: "row",
@@ -55,7 +61,7 @@ export default function Home() {
                             () => {
                                 window.location.assign("https://discordapp.com/users/865552521631105034")
                             }
-                        }><IoLogoDiscord/>&nbsp;My Discord</button>
+                        }><FaDiscord/>&nbsp;My Discord</button>
                     </div>
                     <br/>
                 </div>
