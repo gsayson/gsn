@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="center" style={{
             flexDirection: "row",
-            width: "100%"
+            width: "auto"
         }}>
             <button onClick={
                 () => {
