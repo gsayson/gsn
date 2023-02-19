@@ -3,9 +3,8 @@
 import "./globals.css"
 import Image from "next/image";
 import ParticlesBackground from "@/components/particles";
-import { IoLogoGithub } from "react-icons/io5"
+import {IoLogoGithub, IoLogoYoutube} from "react-icons/io5"
 import Navbar from "@/components/navbar";
-import { FaDiscord } from "react-icons/fa";
 
 export default function Home() {
     return (
@@ -64,9 +63,9 @@ export default function Home() {
                         }><IoLogoGithub/>&nbsp;My GitHub</button>
                         <button onClick={
                             () => {
-                                window.location.assign("https://discordapp.com/users/865552521631105034")
+                                window.location.assign("https://youtube.com/@gerul5")
                             }
-                        }><FaDiscord/>&nbsp;My Discord</button>
+                        }><IoLogoYoutube/>&nbsp;My YouTube</button>
                     </div>
                     <br/>
                 </div>
