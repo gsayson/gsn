@@ -16,25 +16,19 @@ export default function Career() {
             <ParticlesBackground></ParticlesBackground>
             <div className="container">
                 <h1>Studenthood</h1>
-                <p>I have been studying in Singapore ever since I was born. I&apos;m taking <span style={{
+                <p>I&apos;m taking <span style={{
                     color: "rgb(45,255,196)"
-                }}>
-                        Pure Physics
-                    </span> and <span style={{
+                }}>Pure Physics</span> and <span style={{
                     color: "rgb(45,255,196)"
-                }}>
-                        Pure Chemistry
-                    </span> for the <Link href="https://www.seab.gov.sg/home/examinations/gce-o-level/about-gce-o-level" style={{
+                }}>Pure Chemistry</span> for the <Link href="https://www.seab.gov.sg/home/examinations/gce-o-level/about-gce-o-level" style={{
                     color: "rgb(45,150,255)"
                 }}>Singapore-Cambridge &apos;O&apos; Levels</Link>, along with <span style={{
                     color: "rgb(45,255,196)"
-                }}>
-                        Additional Mathematics
-                    </span> and <span style={{
+                }}>Additional Mathematics</span>&nbsp;<span style={{ color: "gray" }}>(my favourite subject)</span> and <span style={{
                     color: "rgb(45,255,196)"
-                }}>
-                        History
-                    </span>.</p>
+                }}>History</span>.</p>
+                <br/>
+                <p>In 2023, I participated in the biennial <span style={{ color: "rgb(45,255,196)"}}>International C.B. Paul Science Quiz</span>, having won a gold medal.</p>
                 <br/><br/>
                 <h1>Software Engineering</h1>
                 <p>I have written plenty of code in <span style={{
