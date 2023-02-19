@@ -28,7 +28,7 @@ export default function Career() {
                     color: "rgb(45,255,196)"
                 }}>History</span>.</p>
                 <br/>
-                <p>In 2023, I participated in the biennial <span style={{ color: "rgb(45,255,196)"}}>International C.B. Paul Science Quiz</span>, having won a gold medal.</p>
+                <p>In 2023, I am participating in the biennial <span style={{ color: "rgb(45,255,196)"}}>International C.B. Paul Science Quiz</span>.</p>
                 <br/><br/>
                 <h1>Software Engineering</h1>
                 <p>I have written plenty of code in <span style={{
